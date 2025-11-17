@@ -1,0 +1,65 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+  <article class="receita-completa" id="frango-assado">
+      <h3>Frango Assado com Batatas</h3>
+      <img src="imagens/frango assado.jpg" alt="Frango assado com batatas" class="imagem-receita">
+
+      <div class="meta-receita">
+        <span>⏱️ 1h20</span>
+        <span>👨‍👩‍👧‍👦 Serve 4–5 porções</span>
+      </div>
+
+      <h4>Ingredientes</h4>
+      <ul>
+        <li>1 frango inteiro ou 1kg de sobrecoxas</li>
+        <li>4 batatas grandes em cubos</li>
+        <li>4 dentes de alho amassados</li>
+        <li>Suco de 1 limão</li>
+        <li>2 colheres (sopa) de azeite</li>
+        <li>Sal, pimenta-do-reino e páprica a gosto</li>
+        <li>Alecrim ou outros temperos frescos (opcional)</li>
+      </ul>
+
+      <h4>Modo de preparo</h4>
+      <ol>
+        <li>Tempere o frango com alho, suco de limão, sal, pimenta, páprica e azeite. Deixe marinando por pelo menos 30 minutos.</li>
+        <li>Em uma assadeira, distribua o frango e as batatas ao redor.</li>
+        <li>Regue com um pouco mais de azeite e, se quiser, coloque ramos de alecrim por cima.</li>
+        <li>Leve ao forno preaquecido (200°C) por cerca de 1h20, virando o frango na metade do tempo para dourar por igual.</li>
+      </ol>
+    </article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

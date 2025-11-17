@@ -1,0 +1,69 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="pudim-leite">
+  <h3>Pudim de Leite Condensado</h3>
+  <img src="imagens/pudim.jpg" alt="Pudim de leite condensado" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 1h + gelar</span>
+    <span>👨‍👩‍👧‍👦 Serve 8 porções</span>
+  </div>
+
+  <h4>Ingredientes (pudim)</h4>
+  <ul>
+    <li>1 lata de leite condensado</li>
+    <li>1 lata de leite (use a lata do condensado como medida)</li>
+    <li>3 ovos</li>
+  </ul>
+
+  <h4>Ingredientes (calda)</h4>
+  <ul>
+    <li>1 xícara (chá) de açúcar</li>
+    <li>½ xícara (chá) de água</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Para a calda, derreta o açúcar em fogo baixo até ficar dourado, adicione a água com cuidado e deixe ferver até engrossar.</li>
+    <li>Espalhe a calda na forma de pudim.</li>
+    <li>No liquidificador, bata leite condensado, leite e ovos.</li>
+    <li>Despeje na forma caramelizada.</li>
+    <li>Cozinhe em banho-maria, no forno (180°C), por cerca de 50–60 minutos.</li>
+    <li>Deixe esfriar, leve à geladeira e desenforme gelado.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

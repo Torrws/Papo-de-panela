@@ -1,0 +1,63 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="salada-frango">
+  <h3>Salada Colorida com Frango Grelhado</h3>
+  <img src="imagens/salada.jpg" alt="Salada com frango grelhado" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 25 min</span>
+    <span>👨‍👩‍👧‍👦 Serve 2–3 porções</span>
+  </div>
+
+  <h4>Ingredientes</h4>
+  <ul>
+    <li>1 peito de frango grelhado em tiras</li>
+    <li>Folhas de alface, rúcula ou mix de folhas</li>
+    <li>Tomate-cereja</li>
+    <li>Cenoura ralada</li>
+    <li>Milho, pepino ou outros legumes a gosto</li>
+    <li>Azeite, sal, limão e pimenta a gosto</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Grelhe o peito de frango temperado com sal, pimenta e limão, depois corte em tiras.</li>
+    <li>Monte a salada com as folhas, legumes e o frango por cima.</li>
+    <li>Tempere com azeite, limão, sal e pimenta na hora de servir.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

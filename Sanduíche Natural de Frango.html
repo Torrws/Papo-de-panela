@@ -1,0 +1,62 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="sanduiche-frango">
+  <h3>Sanduíche Natural de Frango</h3>
+  <img src="imagens/Sanduíche.jpg" alt="Sanduíche natural de frango" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 20 min</span>
+    <span>👨‍👩‍👧‍👦 Serve 4 sanduíches</span>
+  </div>
+
+  <h4>Ingredientes</h4>
+  <ul>
+    <li>8 fatias de pão de forma integral ou tradicional</li>
+    <li>2 xícaras (chá) de frango desfiado</li>
+    <li>2 colheres (sopa) de maionese ou iogurte</li>
+    <li>Cenoura ralada, tomate e alface a gosto</li>
+    <li>Sal, pimenta e cheiro-verde a gosto</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Misture o frango desfiado com maionese (ou iogurte), cenoura ralada e temperos.</li>
+    <li>Monte o sanduíche com a pasta de frango, alface e tomate entre as fatias de pão.</li>
+    <li>Corte ao meio e sirva gelado ou em temperatura ambiente.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

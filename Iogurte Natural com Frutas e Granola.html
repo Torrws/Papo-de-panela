@@ -1,0 +1,61 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+  
+<article class="receita-completa" id="iogurte-frutas">
+  <h3>Iogurte Natural com Frutas e Granola</h3>
+  <img src="imagens/Iogurte.jpg" alt="Iogurte com frutas e granola" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 10 min</span>
+    <span>👨‍👩‍👧‍👦 Serve 1–2 porções</span>
+  </div>
+
+  <h4>Ingredientes</h4>
+  <ul>
+    <li>1 pote de iogurte natural (170 g)</li>
+    <li>Frutas picadas (banana, morango, mamão, uva, etc.)</li>
+    <li>2–3 colheres (sopa) de granola</li>
+    <li>Mel a gosto (opcional)</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Coloque o iogurte em um bowl ou taça.</li>
+    <li>Adicione as frutas picadas por cima.</li>
+    <li>Finalize com granola e um fio de mel, se desejar.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

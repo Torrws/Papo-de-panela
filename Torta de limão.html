@@ -1,0 +1,77 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+  
+<article class="receita-completa" id="torta-limao">
+  <h3>Torta de Limão</h3>
+  <img src="imagens/Torta de limão.jpg" alt="Torta de limão" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 40 min + geladeira</span>
+    <span>👨‍👩‍👧‍👦 Serve 8 porções</span>
+  </div>
+
+  <h4>Ingredientes (massa)</h4>
+  <ul>
+    <li>200g de biscoito maisena triturado</li>
+    <li>100g de manteiga derretida</li>
+  </ul>
+
+  <h4>Ingredientes (recheio)</h4>
+  <ul>
+    <li>1 lata de leite condensado</li>
+    <li>1 caixinha de creme de leite</li>
+    <li>Suco de 3 limões</li>
+  </ul>
+
+  <h4>Ingredientes (cobertura)</h4>
+  <ul>
+    <li>3 claras em neve</li>
+    <li>3 colheres (sopa) de açúcar</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Misture o biscoito triturado com a manteiga até formar uma farofa úmida.</li>
+    <li>Forre o fundo e as laterais de uma forma de fundo removível, apertando bem.</li>
+    <li>Leve ao forno (180°C) por cerca de 10 minutos e reserve.</li>
+    <li>No liquidificador, bata o leite condensado, o creme de leite e o suco de limão até engrossar.</li>
+    <li>Despeje o creme sobre a massa assada.</li>
+    <li>Bata as claras em neve, adicione o açúcar e bata até formar um merengue firme.</li>
+    <li>Cubra a torta com o merengue e, se quiser, leve ao forno só para dourar levemente.</li>
+    <li>Leve à geladeira por pelo menos 3 horas antes de servir.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

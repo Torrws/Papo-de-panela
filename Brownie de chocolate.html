@@ -1,0 +1,66 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="brownie-chocolate">
+  <h3>Brownie de Chocolate</h3>
+  <img src="imagens/Bolo de chocolate.png" alt="Brownie de chocolate" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 35–40 min</span>
+    <span>👨‍👩‍👧‍👦 Serve 8 porções</span>
+  </div>
+
+  <h4>Ingredientes</h4>
+  <ul>
+    <li>200g de chocolate meio amargo picado</li>
+    <li>150g de manteiga</li>
+    <li>3 ovos</li>
+    <li>1 xícara (chá) de açúcar</li>
+    <li>1 xícara (chá) de farinha de trigo</li>
+    <li>1 pitada de sal</li>
+    <li>1 colher (chá) de essência de baunilha (opcional)</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Derreta o chocolate com a manteiga em banho-maria ou no micro-ondas, mexendo até ficar homogêneo.</li>
+    <li>Em outra tigela, bata os ovos com o açúcar até misturar bem.</li>
+    <li>Adicione o chocolate derretido à mistura de ovos e mexa.</li>
+    <li>Acrescente a farinha peneirada, o sal e a baunilha, mexendo delicadamente.</li>
+    <li>Despeje em forma untada e forrada com papel manteiga.</li>
+    <li>Leve ao forno preaquecido (180°C) por cerca de 25–30 minutos. O centro deve ficar úmido.</li>
+  </ol>
+</article>
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

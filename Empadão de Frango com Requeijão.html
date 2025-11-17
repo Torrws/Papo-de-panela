@@ -1,0 +1,76 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina=receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="empadao-frango">
+  <h3>Empadão de Frango com Requeijão</h3>
+  <img src="imagens/empadão.jpg" alt="Empadão de frango com requeijão" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 1h</span>
+    <span>👨‍👩‍👧‍👦 Serve 8 porções</span>
+  </div>
+
+  <h4>Ingredientes (massa)</h4>
+  <ul>
+    <li>3 xícaras (chá) de farinha de trigo</li>
+    <li>150g de manteiga gelada</li>
+    <li>1 ovo</li>
+    <li>Sal a gosto</li>
+    <li>Água gelada até dar o ponto</li>
+  </ul>
+
+  <h4>Ingredientes (recheio)</h4>
+  <ul>
+    <li>2 xícaras (chá) de frango cozido e desfiado</li>
+    <li>1 cebola picada</li>
+    <li>2 dentes de alho</li>
+    <li>1 tomate picado</li>
+    <li>Milho e ervilha a gosto</li>
+    <li>1 copo de requeijão cremoso</li>
+    <li>Sal, pimenta e cheiro-verde a gosto</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Misture farinha, manteiga, sal e ovo até formar uma farofa. Adicione água aos poucos até formar uma massa que desgrude das mãos.</li>
+    <li>Deixe descansar na geladeira por 20 minutos.</li>
+    <li>Refogue cebola, alho, frango, tomate, milho, ervilha e temperos. Misture o requeijão no final.</li>
+    <li>Abra metade da massa e forre o fundo e laterais de uma forma.</li>
+    <li>Coloque o recheio e cubra com o restante da massa.</li>
+    <li>Pincele com gema e asse em forno médio (180–200°C) até dourar.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

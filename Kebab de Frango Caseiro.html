@@ -1,0 +1,62 @@
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papo de Panela — Home</title>
+  <meta name="description" content="Papo de Panela: receitas práticas e gostosas para o dia a dia. Doces, massas, bolos e opções fit.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-receita">
+  <header class="topo">
+  <div class="linha-topo">
+    <h1 class="titulo-site">
+      <img src="imagens/panelinha.png" alt="Logo Papo de Panela" class="mini-logo">
+      Papo de Panela
+    </h1>
+  
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="Doces.html">Doces</a>
+      <a href="massas.html">Massas</a>
+      <a href="bolos-e-tortas.html">Bolos e Tortas</a>
+      <a href="receitas-fit.html">Receitas Fit</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    
+  </header>
+
+<article class="receita-completa" id="kebab-frango">
+  <h3>Kebab de Frango Caseiro</h3>
+  <img src="imagens/kebab.jpg" alt="Kebab de frango caseiro" class="imagem-receita">
+
+  <div class="meta-receita">
+    <span>⏱️ 40 min</span>
+    <span>👨‍👩‍👧‍👦 Serve 4 porções</span>
+  </div>
+
+  <h4>Ingredientes</h4>
+  <ul>
+    <li>500g de peito de frango em tiras</li>
+    <li>Suco de 1 limão</li>
+    <li>2 colheres (sopa) de iogurte natural</li>
+    <li>Alho, sal, pimenta e páprica a gosto</li>
+    <li>Palitos de churrasco (se for fazer em espeto)</li>
+  </ul>
+
+  <h4>Modo de preparo</h4>
+  <ol>
+    <li>Tempere o frango com limão, iogurte e temperos e deixe marinando por 20 minutos.</li>
+    <li>Espete as tiras de frango nos palitos ou grelhe em tiras na frigideira.</li>
+    <li>Grelhe em fogo médio até dourar bem.</li>
+  </ol>
+</article>
+
+  <footer class="rodape">
+    <p>© <span id="year"></span> Papo de Panela • Feito com carinho e muitos sabores.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
